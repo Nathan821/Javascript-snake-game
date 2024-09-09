@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: green;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); /* Overlay for better text readability */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+#canvas {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+  border: 3px solid #00b26a;
+  border-radius: 10px;
+}
+
+.counter {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  background: rgba(0, 151, 53, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.counter p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 15px;
+}
+
+.counter p span {
+  font-weight: bold;
+  color: #f16d31; /* Matches the food color in-game */
+}
